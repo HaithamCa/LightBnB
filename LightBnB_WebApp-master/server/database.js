@@ -5,7 +5,6 @@ const pool = new Pool({
   host: "localhost",
   database: "lightbnb",
 });
-// postgres://hekolyld:t1Usl758uON9Cb_3jpHdJhbg4-J3-lra@castor.db.elephantsql.com/hekolyld
 const properties = require("./json/properties.json");
 const users = require("./json/users.json");
 
